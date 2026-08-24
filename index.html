@@ -9,12 +9,17 @@
 
   <body>
     <main class="gameContainer">
-      <input type="number" id="guessInput" placeholder="Guess 1-100" />
+      <input
+        type="number"
+        id="guessInput"
+        placeholder="Guess Number between 1-100"
+      />
 
-      <button id="guessBtn">Guess</button>
-      <button id="reset">reset</button>
+      <button id="guessBtn">Play</button>
+      <button id="reset">Restart</button>
       <p id="message"></p>
-      <p>attempts: <span id="attempts">0</span></p>
+      <p>Attempts Remaining: <span id="attempts">0</span></p>
+      <p>Score: <span id="highScore"></span></p>
     </main>
     <script src="script.js"></script>
   </body>
